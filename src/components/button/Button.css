@@ -7,7 +7,7 @@
     border-radius: 25px;
     box-shadow: 1px 2px 2px 1px rgba(241, 238, 238, 0.616);
     position: relative;
-    top: 10px;
+    top: 160px;
 }
 
 
@@ -15,3 +15,4 @@
     box-shadow: none;
     background-color: rgba(0, 0, 0, 0.637);
 }
+
