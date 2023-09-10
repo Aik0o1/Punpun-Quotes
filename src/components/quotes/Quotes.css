@@ -5,17 +5,12 @@
 
 .quotes{
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.753); /* Para navegadores WebKit (Chrome, Safari) */
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.753); 
     font-weight: bold;
     font-size: 2rem;
-    padding: 20px;
-    height: 150px;
     padding-bottom: 0;
     font-family: Ubuntu;
+    position: relative;
+    top: 20px;
 }
 
-@media(max-width:700px){
-    .aiko{
-        width: 40vw;
-    }
-}

@@ -3,7 +3,6 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    /* display: flex; */
     align-items: center;
     overflow: hidden;
     display: grid;
@@ -19,6 +18,8 @@
     display: flex;
     align-items: center;
     height: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 p{
@@ -28,36 +29,16 @@ p{
 .punpun {
     position: relative;
     align-self: flex-end;
-    width: 30vw;
+    width: 24vw;
     grid-area: punpun;
+    right: 50px;
 }
 
 .containerQuotes{
     border-radius: 20px;
-    width: 60vw;
-}
-
-
-@media(max-width:700px){
-    .punpun{
-        width: 30vw;
-        
-    }
-    .container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 250px;
-        grid-template-areas: 
-        'main'
-        'punpun';
-    }
-
-    .containerQuotes{
-        width: 90vw;
-        height: 20vh;
-    }
-    .main{
-        flex-direction: column;
-        justify-content: space-around;
-    }
+    width: 80vw;
+    height: 50vh;
 
 }
+
+

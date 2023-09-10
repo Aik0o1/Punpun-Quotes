@@ -28,8 +28,8 @@ type quoteState = {
             <div className="main">
                 <div className="containerQuotes">
                     <Quotes quote={quote[1]} falante={quote[0]}></Quotes>
+                <Button onClick={onUpdate}>Frase</Button>
                 </div>
-                <Button onClick={onUpdate}>random quote</Button>
             </div>
             
             <img className="punpun" src={punpunImg} alt="punpun" />
